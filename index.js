@@ -1,13 +1,11 @@
   function dwarfRollCall(dwarves) {
-  dwarves = ["Dopey", "Grumpy", "Bashful"];
+    const hutOne = [];
 
-  const array = [];
-
-  for (let i = 0; i < dwarves.length; i++) {
-    array.push(`${i + 1}. ${dwarves[i]}`);
+    for (let i = 0; i < dwarves.length; i++) {
+    hutOne.push(`${i + 1}. ${dwarves[i]}`);
 	}
 
-  return `${array.join(' ')} `
+    return `${hutOne.join(' ')} `
 }
 
   function summonCaptainPlanet(planeteerCalls){
@@ -32,7 +30,8 @@
 
 
   function findTheCheese (foods) {
-  for (let i = 0; i < foods.length; i++) {
+
+    for (let i = 0; i < foods.length; i++) {
     if (foods[i] === "cheddar" || foods[i] === "gouda" || foods[i] === "camembert") {
       return foods[i]
     }

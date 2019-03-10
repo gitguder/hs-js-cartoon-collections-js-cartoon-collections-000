@@ -35,7 +35,8 @@
     for (let i = 0; i < foods.length; i++) {
     if (foods[i] === cheeses[i]) {
       return foods[i];
+    } else {
+      return 'no cheese!'
     }
   }
-      return 'no cheese!'
 }

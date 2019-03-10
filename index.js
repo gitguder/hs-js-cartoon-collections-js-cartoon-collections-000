@@ -33,10 +33,10 @@
     var cheeses = ["cheddar", "gouda", "camembert"];
 
     for (let i = 0; i < foods.length; i++) {
-    if (foods[i] === cheeses[i]) {
-      return foods[i];
-    } else {
+    if (foods[i] != cheeses[i]) {
       return 'no cheese!'
+    } else {
+      return foods[i]
     }
   }
 }
